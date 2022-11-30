@@ -1531,6 +1531,7 @@ body {
   .plan_wrapper {
     background-image: url(./../images/third-page.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     -o-object-fit: cover;
        object-fit: cover;
     max-width: 689px;
