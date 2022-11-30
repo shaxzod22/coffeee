@@ -1,0 +1,49 @@
+// HEADER1
+.header{
+    margin-bottom: 45px;
+    
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__logo-img{
+        width: 236px;
+        height: 26px;
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+.link{
+    &:hover{
+        opacity: 0.8;
+    }
+    
+    &:active{
+        opacity: 0.5;
+    }
+}
+
+.item + .item{
+    margin-left: 33px;
+    
+}
+
+
+.item-link{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+
